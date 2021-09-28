@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackground">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryBackground"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editProfile_editText_phone"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:paddingStart="10dp"
+            android:autofillHints=""
+            android:background="@drawable/btn_whitescene"
+            android:ems="10"
+            android:inputType="textEmailAddress|phone"
+            android:phoneNumber="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_editProfile_textViev_phone"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/fragment_editProfile_textViev_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/phone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_address" />
+
+        <EditText
+            android:id="@+id/editProfile_editText_address"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:paddingStart="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints=""
+            android:background="@drawable/btn_whitescene"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_editProfile_textViev_adress"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editProfile_editText_firstName2"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints=""
+            android:paddingStart="10dp"
+            android:background="@drawable/btn_whitescene"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_editProfile_textViev_lastName"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/fragment_editProfile_textViev_lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/last_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_firstName" />
+
+        <TextView
+            android:id="@+id/fragment_editProfile_textViev_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/address"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_firstName2" />
+
+        <EditText
+            android:id="@+id/editProfile_editText_firstName"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:paddingStart="10dp"
+            android:autofillHints=""
+            android:background="@drawable/btn_whitescene"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_editProfile_textViev_firstName"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/editProfile_btn_save2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_primary"
+            android:text="@string/Save"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.37"
+            app:layout_constraintStart_toEndOf="@+id/editProfile_btn_cancel2"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_repeatPassword2"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/editProfile_btn_cancel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_secondary"
+            android:text="@string/Cancel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_repeatPassword2"
+            tools:ignore="ButtonStyle" />
+
+        <EditText
+            android:id="@+id/editProfile_editText_repeatPassword2"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints=""
+            android:paddingStart="10dp"
+            android:background="@drawable/btn_whitescene"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_textViev_repeatPassword2"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:id="@+id/editProfile_textViev_repeatPassword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/repeat_password"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_newPassword2" />
+
+        <TextView
+            android:id="@+id/editProfile_textViev_email2"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_text_editProfile2" />
+
+        <TextView
+            android:id="@+id/editProfile_text_editProfile2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="@string/edit_profile"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/fragment_edit_profile_switch_change_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/change_password"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_phone"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+        <TextView
+            android:id="@+id/editProfile_textViev_newPassword2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/new_password"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_edit_profile_switch_change_password" />
+
+        <EditText
+            android:id="@+id/editProfile_editText_newPassword2"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:autofillHints=""
+            android:paddingStart="10dp"
+            android:background="@drawable/btn_whitescene"
+            android:ems="10"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_textViev_newPassword2"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editProfile_editText_email2"
+            android:layout_width="320dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:paddingStart="10dp"
+            android:autofillHints=""
+            android:background="@drawable/btn_whitescene"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_textViev_email2"
+            tools:ignore="LabelFor" />
+
+        <ProgressBar
+            android:id="@+id/editProfile_progresBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="149dp"
+            android:layout_height="131dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimaryGreen"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fragment_editProfile_textViev_firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/first_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editProfile_editText_email2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

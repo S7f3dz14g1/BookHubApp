@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_menu_edit_profile"
+        android:title="@string/edit_profile"/>
+    <item
+        android:id="@+id/bottom_menu_increase_the_limit"
+        android:title="@string/increase_the_limit"/>
+    <item
+        android:id="@+id/bottom_menu_logout"
+        android:title="@string/logout"/>
+</menu>

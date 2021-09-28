@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackground"
+    android:fillViewport="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/registration_textView_createAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="@string/create_account"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryGreen"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/registration_textView_nick"
+            android:layout_width="150dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/nick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.203"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_createAccount" />
+
+        <EditText
+            android:id="@+id/registration_editText_nick"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@color/colorWhite"
+            android:ems="10"
+            android:hapticFeedbackEnabled="false"
+            android:inputType="textPersonName"
+            android:paddingStart="5sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.351"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_nick" />
+
+        <ImageView
+            android:id="@+id/registration_image_nick"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_weight="4"
+            android:background="@drawable/btn_primary"
+            android:contentDescription="@string/todo"
+            android:scaleType="center"
+            app:layout_constraintStart_toEndOf="@+id/registration_editText_nick"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_nick"
+            app:srcCompat="@drawable/icon_nick" />
+
+        <TextView
+            android:id="@+id/registration_textView_email"
+            android:layout_width="148dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/email"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.197"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_editText_nick" />
+
+        <EditText
+            android:id="@+id/registration_editText_email"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@color/colorWhite"
+            android:ems="10"
+            android:hapticFeedbackEnabled="false"
+            android:inputType="textEmailAddress"
+            android:paddingStart="5sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.344"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_email" />
+
+        <ImageView
+            android:id="@+id/registration_image_email"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_weight="4"
+            android:background="@drawable/btn_primary"
+            android:contentDescription="@string/todo"
+            android:scaleType="center"
+            app:layout_constraintStart_toEndOf="@+id/registration_editText_email"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_email"
+            app:srcCompat="@drawable/icon_email" />
+
+        <TextView
+            android:id="@+id/registration_textView_password"
+            android:layout_width="150dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.203"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_editText_email" />
+
+        <EditText
+            android:id="@+id/registration_editText_password"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@color/colorWhite"
+            android:ems="10"
+            android:hapticFeedbackEnabled="false"
+            android:inputType="textPassword"
+            android:paddingStart="5sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.344"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_password" />
+
+        <ImageView
+            android:id="@+id/registration_image_password"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_weight="4"
+            android:background="@drawable/btn_primary"
+            android:contentDescription="@string/todo"
+            android:scaleType="center"
+            app:layout_constraintStart_toEndOf="@+id/registration_editText_password"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_password"
+            app:srcCompat="@drawable/icon_pass" />
+
+        <TextView
+            android:id="@+id/registration_textView_repeatPassword"
+            android:layout_width="150dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/repeat_password"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.191"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_editText_password" />
+
+        <ImageView
+            android:id="@+id/registration_image_repeatPassword"
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:layout_weight="4"
+            android:background="@drawable/btn_primary"
+            android:contentDescription="@string/todo"
+            android:scaleType="center"
+            app:layout_constraintStart_toEndOf="@+id/registration_editText_repeatPassword"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_repeatPassword"
+            app:srcCompat="@drawable/icon_pass" />
+
+        <EditText
+            android:id="@+id/registration_editText_repeatPassword"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:background="@color/colorWhite"
+            android:ems="10"
+            android:hapticFeedbackEnabled="false"
+            android:inputType="textPassword"
+            android:paddingStart="5sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.331"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_repeatPassword" />
+
+        <Button
+            android:id="@+id/registration_btn_register"
+            android:layout_width="163dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_primary"
+            android:text="@string/register"
+            android:textColor="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_editText_repeatPassword" />
+
+        <TextView
+            android:id="@+id/registration_textView_login"
+            android:layout_width="236dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.44"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_btn_register" />
+
+        <ProgressBar
+            android:id="@+id/registration_progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="130dp"
+            android:layout_height="131dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorPrimaryGreen"
+            android:progressTint="@color/colorPrimaryGreen"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/activity_register_textViev_Keep_browsing"
+            android:layout_width="411dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:paddingTop="15dp"
+            android:text="@string/keep_browsing"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryGreen"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registration_textView_login" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

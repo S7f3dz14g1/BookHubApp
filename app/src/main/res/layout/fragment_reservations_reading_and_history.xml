@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:visibility="visible"
+    tools:context=".ui.fragments.readingAndHistory.ReservationsReadingAndHistoryMainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_motive"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/readingAndHistory_button_reading"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/reading"
+                android:textColor="@color/colorPrimaryBackground" />
+
+            <Button
+                android:id="@+id/readingAndHistory_button_history"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/history"
+                android:textColor="@color/colorPrimaryBackground" />
+
+            <Button
+                android:id="@+id/readingAndHistory_button_reservations"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="96dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:text="@string/reservations"
+                android:textColor="@color/colorPrimaryBackground" />
+        </TableRow>
+
+        <FrameLayout
+            android:id="@+id/readingAndHistory_fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+</ScrollView>

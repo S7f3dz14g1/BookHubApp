@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reservations"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.readingAndHistory.empty.EmptyReservationsFragment">
+
+
+    <ImageView
+        android:id="@+id/imageEmptyReservationsFragment_image_emptyReservationsList"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginTop="110dp"
+        android:clickable="true"
+        android:src="@drawable/empty_reservations_list"
+        tools:ignore="ContentDescription"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/emptyReservationsFragment_text_yourListIsEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="80dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/your_reservations_list_is_empty"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryGreen"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/emptyReservationsFragment_text_addBookNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="80dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/change_it"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryGreen"
+        android:textSize="28sp"
+        android:typeface="serif"
+        android:focusable="true" />
+
+</LinearLayout>

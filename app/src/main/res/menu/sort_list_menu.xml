@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottom_sort_title"
+        android:title="@string/title"/>
+    <item
+        android:id="@+id/bottom_sort_ranting"
+        android:title="@string/ranking"/>
+    <item
+        android:id="@+id/bottom_sort_date"
+        android:title="@string/date"/>
+    <item
+        android:id="@+id/bottom_sort_top_books"
+        android:title="@string/top_books"/>
+    <item
+        android:id="@+id/bottom_sort_discover"
+        android:title="@string/discover"/>
+</menu>

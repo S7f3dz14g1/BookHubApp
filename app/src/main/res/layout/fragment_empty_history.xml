@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/history"
+    tools:context=".ui.fragments.readingAndHistory.empty.EmptyHistoryFragment">
+
+
+    <ImageView
+        android:id="@+id/imageEmptyBooksHistory_image_emptyHistory"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginTop="110dp"
+        android:clickable="true"
+        android:src="@drawable/empty_history_vector"
+        tools:ignore="ContentDescription"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/emptyHistoryFragment_text_emptyHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="80dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/your_history_is_empty"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryGreen"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/emptyHistoryFragment_text_changeIt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="70dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/change_it"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryGreen"
+        android:textSize="28sp"
+        android:typeface="serif"
+        android:focusable="true" />
+
+</LinearLayout>

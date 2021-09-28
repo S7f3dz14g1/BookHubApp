@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Biblioteka</string>
+    <string name="home">Home</string>
+    <string name="book">Book</string>
+    <string name="profile">Profile</string>
+    <string name="menu">Menu</string>
+    <string name="avatar" translatable="false">Avatar</string>
+    <string name="nick" translatable="false">Nick</string>
+    <string name="read_books">Read books</string>
+    <string name="current_books">Current books</string>
+    <string name="zero" translatable="false">0</string>
+    <string name="Exp" translatable="false">exp</string>
+    <string name="level">level</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="create_account">Create account</string>
+    <string name="todo" translatable="false">todo</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="register">Register</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="library">Library</string>
+    <string name="new_password">New password</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Save">Save</string>
+    <string name="search">Search</string>
+    <string name="reading">Reading</string>
+    <string name="history">History</string>
+    <string name="publisher">Publisher:</string>
+    <string name="more">More…</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="logout">Logout</string>
+    <string name="title">Title</string>
+    <string name="ranking">Ranking</string>
+    <string name="date">The latest books</string>
+    <string name="top_books">The most popular</string>
+    <string name="discover">Discover</string>
+    <string name="author">Author:</string>
+    <string name="one" translatable="false">1</string>
+    <string name="author_name_text">Author name</string>
+    <string name="publisher_name_text">Publisher name</string>
+    <string name="pages">Pages:</string>
+    <string name="count_of_pages">Count of pages</string>
+    <string name="year">Year:</string>
+    <string name="yyyy_mm_dd" translatable="false">YYYY-MM-DD</string>
+    <string name="available">Available:</string>
+    <string name="count_of_available_copies">Count of available copies</string>
+    <string name="back">Back</string>
+    <string name="borrow">Borrow</string>
+    <string name="borrowed">Borrowed:</string>
+    <string name="returned">Returned:</string>
+    <string name="how_much_days_ago">How much days ago</string>
+    <string name="click_to_return">Click To Return</string>
+    <string name="check">Check</string>
+    <string name="go_to_the_library">Go to the Library</string>
+    <string name="welcome_in_library">Welcome in Library</string>
+    <string name="idBook">idBook</string>
+    <string name="status">Status</string>
+    <string name="title_of_the_book">Title of the book</string>
+    <string name="only_logged_in_users_can_borrow_the_book">Only logged in users can borrow the book </string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="clicktologinin">ClickToLoginIn</string>
+    <string name="login_in">Login In</string>
+    <string name="incorect_data">Incorrect data</string>
+    <string name="login_successes">Login Successes</string>
+    <string name="your_reading_list_is_empty">Your reading list is empty</string>
+    <string name="add_new_book_now">Add new book now!</string>
+    <string name="your_history_is_empty">Your history is empty</string>
+    <string name="change_it">Change it!</string>
+    <string name="copy">Copy</string>
+    <string name="copy_number">Copy number</string>
+    <string name="reservations">Reservations</string>
+    <string name="reserved">Reserved:</string>
+    <string name="extend">Extend</string>
+    <string name="your_reservations_list_is_empty">Your reservations list is empty</string>
+   <string name="recommended_for_you">Recommended for you</string>
+    <string name="the_most_popular">The most popular</string>
+    <string name="try_again">Try again</string>
+    <string name="change_password">Change password</string>
+    <string name="no_signal">No Signal</string>
+    <string name="login_is_empty">Login is empty</string>
+    <string name="password_is_empty">Password is empty</string>
+    <string name="no_internet_dialog" translatable="false">No Internet dialog</string>
+    <string name="incorrect_data">Incorrect data</string>
+    <string name="no_internet_message">Operation unavailable. Still no internet.</string>
+    <string name="you_booked_a_book">You booked a book</string>
+    <string name="sort_by">Sort by</string>
+    <string name="first_name">First name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="phone">Phone:</string>
+    <string name="address">Address:</string>
+    <string name="empty" translatable="false" />
+    <string name="books_sorted_by_title">Books sorted by title</string>
+    <string name="books_sorted_by_date">Books sorted by date</string>
+    <string name="discover_books">Discover books</string>
+    <string name="books_sorted_by_rating">Books sorted by rating</string>
+    <string name="the_data_has_been_edited">The data has been edited</string>
+    <string name="enter_old_password">Enter old password</string>
+    <string name="edita_data">Edit data</string>
+    <string name="cancel_reservation_book">Cancel reservation book</string>
+    <string name="cancel">Cancel</string>
+    <string name="successful_registration">Successful registration</string>
+    <string name="user_with_given_email_or_logiin_exist">User with email or login already exist</string>
+    <string name="nick_is_empty">Nick is Empty!</string>
+    <string name="incorrect_email">Incorrect email!</string>
+    <string name="email__is_empty">Email is empty!</string>
+    <string name="password_is_empty_two">Password is empty!</string>
+    <string name="password_are_not_identical">Passwords aren\'t identical</string>
+    <string name="password_should_include">Password should include at least one numbers, one special character and one letter and has between 8-25 characters</string>
+    <string name="password_should_consist">Login should consist of numbers and letters and has between 3-12 characters</string>
+    <string name="reservation_canceled">Reservation canceled</string>
+    <string name="cancel_book_reservation">Cancel book reservation</string>
+    <string name="book_available_borrow_home">Book is available to borrow and read at home</string>
+    <string name="book_available_borrow_library">Book is available to borrow but it can be read only inside of the library</string>
+    <string name="available_second">Available</string>
+    <string name="restricted_access">Restricted access</string>
+    <string name="occupied">Occupied</string>
+    <string name="available_from">Available from </string>
+    <string name="keep_browsing">Keep browsing</string>
+    <string name="increase_the_limit">Increase the limit</string>
+    <string name="extend_the_deadline">Extend the deadline</string>
+    <string name="choose_book">Choose book</string>
+    <string name="one_of_fields_is_empty">One of the fields is empty.</string>
+    <string name="fill_in_your_contact_details">Fill in your contact details</string>
+    <string name="extend_book_rental">Extend book rental</string>
+    <string name="you_are">You are</string>
+    <string name="banned">Banned</string>
+    <string name="do_you_want_to_continue_the_registration">Do you want to continue the registration?</string>
+    <string name="go_to_the_books">Go to the books</string>
+    <string name="complete_the_registration">Complete the registration</string>
+    <string name="if_you_want_to_borrow_a_book_you_must_complete_the_registration">If you want to borrow a book, you must complete the registration</string>
+    <string name="continue_registration">Continue registration</string>
+    <string name="send">send</string>
+    <string name="decryption">Description</string>
+    <string name="enter_a_reason_for_the_limit">Your limit for borrowing books is 3. If you want to increase the limit, enter the reason and send it.</string>
+    <string name="decryption_is_empty">Decryption is empty</string>
+    <string name="LoanExtend">The loan has been extended</string>
+    <string name="LoanDoesntExtend">The loan not extended</string>
+    <string name="create_your_own_reading_list">Create your own reading list and</string>
+    <string name="create_your_own_history_list">Create your own history list and</string>
+    <string name="do_you_want_to_finish_setting_up_your_account">Do you want to finish setting up your account?</string>
+    <string name="yes">yes</string>
+    <string name="leter">later</string>
+    <string name="no">no</string>
+    <string name="if_you_want_to_borrow_a_book_complete_the_contact_details_do_you_want_to_refill_now">If you want to borrow a book, complete the contact details. Do you want to refill now?</string>
+    <string name="choose_the_book">Choose the book.</string>
+    <string name="available_to">Available to:</string>
+    <string name="book_is_not_available">Book isn\'t available</string>
+    <string name="message_was_sent">Message was sent</string>
+    <string name="edit">Edit</string>
+    <string name="field_is_empty">Field is empty</string>
+    <string name="incorrect_first_name">Incorrect first name</string>
+    <string name="incorrect_last_name">Incorrect last name</string>
+    <string name="incorrect_addres">Incorrect address.</string>
+    <string name="incorresct_phone">Incorrect phone</string>
+    <string name="create_your_own_reservation_list">Create your own reservation list and</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
+    <string name="you_have_been_logged_out">You have been logged out</string>
+    <string name="If_you_want_to_learn">If you want to learn how to unban an account, please visit the nearest library.</string>
+    <string name="five" translatable="false">/5.0</string>
+
+
+</resources>
