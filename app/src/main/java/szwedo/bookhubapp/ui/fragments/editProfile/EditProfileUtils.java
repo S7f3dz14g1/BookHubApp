@@ -22,7 +22,7 @@ class EditProfileUtils {
             return EditProfileStatus.INCORRECT_FIRST_NAME;
         }else if(!StringHelper.name(user.getLastName())){
             return EditProfileStatus.INCORRECT_LAST_NAME;
-        }else if(!StringHelper.address(user.getNewPassword())){
+        }else if(!StringHelper.address(user.getAddress())){
             return EditProfileStatus.INCORRECT_ADDRESS;
         } else if (!StringHelper.phone(user.getPhone())) {
             return EditProfileStatus.INCORRECT_PHONE;

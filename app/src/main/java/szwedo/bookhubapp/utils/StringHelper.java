@@ -31,7 +31,7 @@ public class StringHelper {
     }
 
     public static boolean address(String address) {
-        return address.matches("^[#.0-9\\p{L}\\s\\/,-]{5,25}+$");
+        return address.matches("^[#.0-9\\p{L}\\s\\/,-]+$");
     }
 
     public static boolean phone(String phone) {
